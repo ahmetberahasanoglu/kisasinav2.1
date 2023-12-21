@@ -4,7 +4,7 @@ import java.util.List;
 public class Bina extends Konut {//Bina, Konut soyut class'ını kalıtır ve adres özelligine sahip olur
 
     Bina(String address, int katSayisi) {//Yine UML'de verilenlere göre constructer olusturduk
-        super(address);
+        super(address);//Konuttaki constructer'I calıstırır
         this.numberOfFloors = katSayisi;
     }
 
